@@ -10,11 +10,11 @@ Server: g++ -Wall -o server server.cpp, followed by ./server to run
 # Design
 ## Server State Diagram
 
-![]('Images/ServerStateDiagram.png')
+![](Images/ServerStateDiagram.png)
 
 ## Client State Diagram
 
-![]('Images/ClientStateDiagram.png')
+![](Images/ClientStateDiagram.png)
 
 
 ## Pseudocode
@@ -48,7 +48,7 @@ Poll for messages from the user and append their alias to each message
 # Testing
 A pcap was provided in this submission of the TCP traffic for demonstration purposes in addition to the below tests.
 
-![]('Images/Testing.png')
+![](Images/Testing.png)
 
 ## All users can see each other’s IP addresses
 Condition: Each message received should have the sender’s IP address prepended to it.
